@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body{
+    width: 100%;
+    height: 700px;
+    background-color: #979696;
+    display: flex;
+
+}
+
+.login{
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    /* width: 50px ; */
+    margin-bottom: 30px;
+}
+.logo i{
+    margin: auto;
+}
+
+.login h1{
+    margin-bottom: 30px;
+}
+.google{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.google img{
+    width: 25px;
+    border-radius: 50%;
+}
+.apple{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or{
+width: 300px;
+height: 40px;
+display: flex;
+align-items: center;
+font-weight: bold;
+}
+
+.or div{
+    border-bottom: 1px solid #ccc;
+    width: 150px;
+}
+
+
+.next{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.next p{
+    font-size: 16px;
+}
+
+.signin{
+    margin-bottom: 40px;
+}
+
+.acc{
+    display: flex;
+    font-size: 17px;
+}
+.sign{
+    color: rgb(23, 192, 122);
+}
