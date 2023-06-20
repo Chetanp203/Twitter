@@ -45,6 +45,10 @@
     justify-content: space-around;
     margin-bottom: 20px;
 }
+.style{
+    text-decoration: none;
+    color: black;
+}
 .google img{
     width: 25px;
     border-radius: 50%;
