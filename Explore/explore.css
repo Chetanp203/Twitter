@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-container{
+    width: 100%;
+    /* height: 1000px; */
+    display: flex;
+}
+.left{
+    width:20.7% ;
+    /* height: 600px; */
+    /* background-color: aqua; */
+    /* border-right: 1px solid #ccc; */
+}
+.logo{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.navigation{
+    width: 100%;
+}
+.navigation div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 60%;
+    padding-left: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.navigation div:hover{
+    cursor: pointer;
+    background-color: rgb(202, 198, 198);
+}
+
+.navigation div p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.left{
+    position: fixed;
+    background-color: white;
+}
+
+.left button{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #00aeff ;
+    color: white;
+    margin-left: 50px;
+}
+
+.left button p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.middle{
+    width: 50%;
+    /* height: 700px; */
+    /* background-color: yellow; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: 280px;
+    position: relative;
+}
+.m0 i{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 30px;
+    
+}
+
+.m0 input{
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color:rgb(236, 234, 234) ;
+    margin-left: 20px;
+     margin-top: 5px;
+     padding-left: 40px;
+     font-size: medium;
+}
+
+
+.m1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 20px 0px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    
+}
+.m1 ul{
+    display: flex;
+    
+}
+.m1 ul li{
+    list-style: none;
+    padding: 0px 35px;
+}
+
+.trending{
+    width: 100%;
+    /* padding: 20px; */
+}
+.trending div{
+    line-height: 22px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.trending>div:hover{
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+.m2{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.m2 img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.m2-input{
+    width: 550px;
+    height: 30px;
+    border: none;
+
+}
+.m2-input::placeholder{
+    font-size: 20px;
+}
+.m3{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.m3 div{
+    margin-left: 0px;
+}
+.m3 div i{
+    padding: 0px 5px;
+}
+.m3 button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00aeff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 280px;
+}
+.highlight{
+    color: rgb(32, 207, 163);
+}
+.tweet{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.m-tweet{
+    width: 85%;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+.up{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    line-height: 22px;
+}
+
+.react{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    width: 70%;
+    margin: 20px 90px;
+}
+.react div{
+    display: flex;
+
+}
+.up img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.right{
+    width: 28%;
+    /* height: 600px; */
+    /* background-color: green; */
+    padding-left: 20px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.R1{
+    width: 75%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(253, 246, 246) ;
+    margin-bottom: 20px;
+}
+.R1-int{
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    justify-content: space-around;
+}
+.R1-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.R1 div button{
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.R2{
+    width: 75%;
+    padding: 10px;
+    border-radius:20px ;
+    background-color:rgb(236, 234, 234);
+}
+.R2 h3{
+    margin-bottom: 20px;
+}
+.R2 div{
+    margin-bottom: 20px;
+}
