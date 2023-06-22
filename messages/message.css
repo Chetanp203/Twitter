@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-container{
+    width: 100%;
+    /* height: 1000px; */
+    display: flex;
+}
+.left{
+    width:20.7% ;
+    /* height: 600px; */
+    /* background-color: aqua; */
+    /* border-right: 1px solid #ccc; */
+}
+.logo{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.navigation{
+    width: 100%;
+}
+.navigation div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 60%;
+    padding-left: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.navigation div:hover{
+    cursor: pointer;
+    background-color: rgb(202, 198, 198);
+}
+
+.navigation div p{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.left{
+    position: fixed;
+    background-color: white;
+}
+
+.left button{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #00aeff ;
+    color: white;
+    margin-left: 50px;
+}
+
+.left button p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.middle{
+    width: 30%;
+    height: 700px;
+    /* background-color: yellow; */
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: 280px;
+    position: relative;
+}
+.m0 i{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 110px;
+    
+}
+
+.m0 input{
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    background-color:white ;
+    margin-left: 20px;
+     margin-top: 5px;
+     /* padding-left: 40px; */
+     font-size: medium;
+     
+}
+
+.searchpanel::placeholder{
+    padding-left: 120px;
+}
+
+
+.m1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.m1-1 i{
+   padding: 0px 5px;
+}
+
+.msg{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.msg div div{
+    display: flex;
+}
+.msg img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+.right{
+    width: 48%;
+    /* height: 600px; */
+    /* background-color: green; */
+    padding-left: 20px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.r-c{
+    width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 250px;
+
+}
+.r-c button{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #00aeff;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
