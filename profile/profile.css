@@ -10,9 +10,10 @@
     display: flex;
 }
 .left{
-    width:22% ;
+    width:20.7% ;
     /* height: 600px; */
     /* background-color: aqua; */
+    /* border-right: 1px solid #ccc; */
 }
 .logo{
     width: 50%;
@@ -63,11 +64,6 @@
     font-weight: bold;
     font-size: 18px;
 }
-
-.link{
-    color: black;
-    text-decoration: none;
-}
 .middle{
     width: 50%;
     /* height: 700px; */
@@ -75,126 +71,115 @@
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     margin-left: 280px;
+    position: relative;
 }
-.middle h3{
-    padding: 20px 0px 40px 20px;
-    
-}
-
-.m1{
+.profile{
     width: 100%;
-    height: 50px;
-    display: flex;
-    
 }
-
-.m1 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    border-bottom: 1px solid #ccc;
-    
-}
-
-.m1 div:hover{
-    background-color: #dddbdb;
-    cursor: pointer;
-}
-
-.m2{
-    width: 100%;
-    height: 60px;
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-}
-.m2 img{
-    width: 40px;
-    border-radius: 50%;
-    margin: 0px 10px;
-}
-
-.m2-input{
-    width: 550px;
-    height: 30px;
-    border: none;
-
-}
-.m2-input::placeholder{
-    font-size: 20px;
-}
-.m3{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-}
-.m3 div{
-    margin-left: 0px;
-}
-.m3 div i{
-    padding: 0px 5px;
-}
-.m3 button{
+.profile img{
     width: 100px;
-    height: 40px;
-    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    border: 3px solid white;
+}
+
+.ed{
+    width: 100%;
+    height: 70px;
+}
+
+.ed button{
+    margin-left: 500px;
+    margin-top: 20px;
+    width: 120px;
+    height: 30px;
     border-radius: 20px;
-    background-color: #00aeff;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 280px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
 }
-.highlight{
-    color: rgb(32, 207, 163);
+
+.date{
+    display: flex;
+    margin-top: 20px;
 }
-.tweet{
+.date i{
+    padding-right: 10px;
+}
+
+.foll{
+    display: flex;
+    margin-top: 10px;
+}
+
+.options{
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
-.m-tweet{
-    width: 85%;
-    border-radius: 10px;
-    margin-left: 50px;
-}
-.up{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    padding: 10px 5px;
-    line-height: 22px;
-}
-
-.react{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    width: 70%;
-    margin: 20px 90px;
-}
-.react div{
+.options ul{
     display: flex;
 
 }
-.up img{
-    width: 40px;
-    height: 40px;
+.options ul li{
+list-style: none;
+padding: 20px 60px;
+}
+.options ul li:hover{
+    cursor: pointer;
+    background-color: #f0ebeb;
+    border-bottom: 3px solid rgb(39, 197, 218);
+}
+
+.tweets{
+    /* width: 100%; */
+    display: flex;
+    /* align-items: center; */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.twee div{
+    margin: 20px 0px;
+}
+.tweets img{
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-right: 10px;
+    margin-top: 30px;
 }
+
+.reactions i{
+    padding: 10px 50px;
+
+}
+
+
+
+.p1{
+    display: flex;
+    align-items: center;
+   padding: 5px 20px;
+}
+
+.banner{
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+
+
 .right{
     width: 28%;
     /* height: 600px; */
     /* background-color: green; */
     padding-left: 20px;
-    padding-top: 5px;
+    padding-top: 15px;
     position: relative;
 }
+
 .search{
     margin-bottom: 20px;
 }
@@ -211,18 +196,29 @@
 
 .search i{
     position: absolute;
-    left: 25px;
-    top: 15px;
+    left: 29px;
+    top: 25px;
 }
+
 .R1{
     width: 75%;
     padding: 10px;
     border-radius: 20px;
-    background-color:rgb(236, 234, 234) ;
-    line-height: 30px;
+    background-color:rgb(253, 246, 246) ;
     margin-bottom: 20px;
 }
-.R1 button{
+.R1-int{
+    display: flex;
+    width: 90%;
+    margin: 20px;
+    justify-content: space-around;
+}
+.R1-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.R1 div button{
     width: 120px;
     height: 30px;
     border-radius: 20px;
@@ -231,6 +227,7 @@
     border: none;
     font-size: medium;
     font-weight: bold;
+    margin-left: 20px;
 }
 
 .R2{
