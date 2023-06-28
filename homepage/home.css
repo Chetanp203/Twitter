@@ -23,6 +23,7 @@
 .navigation{
     width: 100%;
 }
+
 .navigation div{
     display: flex;
     align-items: center;
