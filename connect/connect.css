@@ -13,6 +13,7 @@
     width:22% ;
     /* height: 600px; */
     /* background-color: aqua; */
+    border-right: 1px solid #ccc;
 }
 .logo{
     width: 50%;
@@ -23,7 +24,6 @@
 .navigation{
     width: 100%;
 }
-
 .navigation div{
     display: flex;
     align-items: center;
@@ -69,42 +69,6 @@
     color: black;
     text-decoration: none;
 }
-
-.toggle-list{
-    width: 350px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: white;
-    padding: 10px;
-    line-height: 45px;
-    border-radius: 20px;
-    position: absolute;
-    right: 950px;
-    top: 650px;
-   /* display: none; */
-}
-.toggle-list>div{
-    display: flex;
-    align-items: center;
-}
-.toggle-list>div>i{
-    padding-right: 10px;
-}
-
-.more1{
-    display: flex;
-    align-items: center;
-    margin-left: 60px;
-    margin-bottom: 20px;
-}
-
-#more{
-    position: relative;
-    font-size:larger;
-    padding-left: 20px;
-}
-#more:hover .toggle-list{
-    /* display: block; */
-}
 .middle{
     width: 50%;
     /* height: 700px; */
@@ -112,118 +76,53 @@
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     margin-left: 300px;
+    position: relative;
 }
-.middle h3{
-    padding: 20px 0px 40px 20px;
-    
-}
-
-.m1{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    
-}
-
-.m1 div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    border-bottom: 1px solid #ccc;
-    
-}
-
-.m1 div:hover{
-    background-color: #dddbdb;
-    cursor: pointer;
-}
-
-.m2{
-    width: 100%;
-    height: 60px;
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-}
-.m2 img{
-    width: 40px;
-    border-radius: 50%;
-    margin: 0px 10px;
-}
-
-.m2-input{
-    width: 550px;
-    height: 30px;
-    border: none;
-
-}
-.m2-input::placeholder{
-    font-size: 20px;
-}
-.m3{
+.searchlist{
     width: 100%;
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    padding-top: 5px;
 }
-.m3 div{
-    margin-left: 0px;
+.searchlist i{
+    padding-left: 10px;
+    padding-right: 30px;
 }
-.m3 div i{
-    padding: 0px 5px;
-}
-.m3 button{
-    width: 100px;
-    height: 40px;
-    border: none;
-    border-radius: 20px;
-    background-color: #00aeff;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    margin-left: 280px;
-}
-.highlight{
-    color: rgb(32, 207, 163);
-}
-.tweet{
+
+.people{
     width: 100%;
-    border-bottom: 1px solid #ccc;
+    margin: 20px;
+
 }
-.m-tweet{
-    width: 85%;
-    border-radius: 10px;
-    margin-left: 50px;
-}
-.up{
-    width: 50%;
+.person{
+    width: 100%;
     display: flex;
     align-items: center;
-    padding: 10px 5px;
-    line-height: 22px;
 }
-
-.react{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    width: 70%;
-    margin: 20px 90px;
-}
-.react div{
-    display: flex;
-
-}
-.up img{
-    width: 40px;
-    height: 40px;
+.person img{
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-right: 10px;
 }
+.person button{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
+.person div{
+    width: 75%;
+}
+.pp{
+    padding-left: 45px;
+    color: #2b2a2a;
+}
+
 .right{
     width: 28%;
     /* height: 600px; */
