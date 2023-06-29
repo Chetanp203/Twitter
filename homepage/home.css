@@ -9,11 +9,8 @@
     /* height: 1000px; */
     display: flex;
 }
-.left{
-    width:22% ;
-    /* height: 600px; */
-    /* background-color: aqua; */
-}
+
+
 .logo{
     width: 50%;
     height: 50px;
@@ -48,6 +45,11 @@
 .left{
     position: fixed;
     background-color: white;
+    width:22%;
+    overflow-y: scroll;
+    height: 100vh;
+   
+    
 }
 
 .left button{
@@ -78,9 +80,10 @@
     line-height: 45px;
     border-radius: 20px;
     position: absolute;
-    right: 950px;
-    top: 650px;
+    /* right: 950px;
+    top: 650px; */
    /* display: none; */
+   
 }
 .toggle-list>div{
     display: flex;
